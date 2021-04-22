@@ -1,0 +1,10 @@
+  int Age;
+            Console.Write("Enter your age :");
+            Age = Convert.ToInt32(Console.ReadLine());
+            if (Age >= 60)
+                Console.Write("\n You are a senior citizen");
+            else if (Age >= 18)
+                Console.Write("\n You are eligible to vote");
+            else
+                Console.Write("\n You are not eligible to vote");
+                Console.ReadLine();
